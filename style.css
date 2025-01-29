@@ -1,0 +1,78 @@
+
+.content {
+    position: absolute;
+    width: 850px;
+    left: 27%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news {
+    border: 3px solid #e1e5eb;
+    padding: 20px;
+    background-color: #b7f4f5;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+
+button {
+    margin-left: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, #00fb00, #028a02);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#isPopup1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 40px;
+    position: absolute;
+    width: 490px;
+    height: auto;
+    background-color: #e1ff73;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+#isPopup2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 40px;
+    position: absolute;
+    width: 490px;
+    height: auto;
+    background-color: #e1ff73;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+#isPopup3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 40px;
+    position: absolute;
+    width: 490px;
+    height: auto;
+    background-color: #e1ff73;
+    left: 35%;
+    top: 35%;
+    display: none;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main_content {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
